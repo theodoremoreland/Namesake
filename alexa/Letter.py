@@ -12,6 +12,7 @@ class Letter():
         else:
             return False
 
+# TODO add unit testing
 # Each letter and its respective coordinates
 a = Letter([3,4,7,10,12,13,14,15,17,20,22,25], "a")
 b = Letter([2,3,4,7,10,12,13,14,17,20,22,23,24], "b")

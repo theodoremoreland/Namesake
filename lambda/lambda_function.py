@@ -61,6 +61,7 @@ class LaunchRequestHandler(AbstractRequestHandler):
 
 class GuessNameHandler(AbstractRequestHandler):
     """Handler for Guess Name Intent."""
+    
     def can_handle(self, handler_input):
         # type: (HandlerInput) -> bool
         return ask_utils.is_intent_name("guess_name")(handler_input)

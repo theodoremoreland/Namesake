@@ -21,5 +21,5 @@ def create_presigned_url(object_name):
         logging.error(e)
         return None
 
-    # The response contains the presigned URL
+    # The response contains the presigned url
     return response
